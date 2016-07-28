@@ -1,0 +1,287 @@
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background: #ffffff;
+	font-size: 13px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+	color: #4aaaa5;
+	background-image: url(../image/cork-wallet.png);
+}
+
+header{
+	background: #ffffff;
+	height: 60px;
+	border-bottom: 1px solid #cccccc;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	margin: 0px;
+	padding-left: 100px;
+
+}
+nav {
+	background: #ffffff;
+	height: 40px;
+	padding-top: 20px;
+	display: inline;
+	float: right;	
+}
+a {
+	text-decoration:none;
+	color: #cccccc; 
+	word-spacing: 6px;	
+}
+section {	
+	width: 630px;
+	height:430px;
+	color: #ffffff;
+	border-color:#dddddd; 
+	float: left;
+	margin:0px;
+	padding: 20px 20px 20px 0px;	
+	background-image: url(../image/cork-wallet.png);
+	
+}
+article {
+	background: #ffffff;	
+	margin: 20px 20px 20px 100px;
+	padding: 30px;
+	height:340px;
+}
+.TextWrapLeft{
+	clear:right;
+	float: left;
+	margin: 15px 10px 10px 10px ;
+}
+
+.TextWrapRight{
+	clear:left;
+	float: right;
+	margin: 0px 10px 0px 10px ;
+	
+}
+
+.TextWrapLeftBottom{
+	clear:right;
+	float: left;
+	margin: 5px 10px 10px 10px ;
+
+}
+.topP {	
+	color: #777;
+	font-size: 15px;
+	font-weight: normal;
+	margin: 15px 0px 0px 10px;	
+	text-align: left;
+	padding-right: 35px; 
+}
+.bottomP {	
+	color: #777;
+	font-size: 15px;
+	font-weight: normal;
+	margin: 0px 0px 0px 10px;	
+	text-align: left;
+	padding-right: 35px; 
+}
+aside {
+	
+	width: 290px;
+	height: 410px;
+	padding: 40px 20px 20px 0px;
+	margin: 0px;
+	float: left;	
+	text-align: center;	
+}
+div{
+	background: #ffffff;
+	width: 150px;
+	height: 120px;
+}
+footer {
+	background: #666666;
+	padding-top: 15px;
+	height: 35px;
+	float: left;
+	width: 100%;	
+	font-size: 8px;
+	color: #cccccc;
+	margin-top: 5px;
+	text-align: center;
+	border-top: 5px solid #4aaaa5 ;
+}
+h1{
+	background: #4aaaa5;
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	display: inline-block;	
+	padding-top: 20px;
+	margin: 0;
+	font-size: 20px;
+	color: #ffffff;
+}
+h2{
+	text-align: left;
+	color: #4aaaa5;
+	font-size: 18px; 
+	margin: 0px 15px 5px 10px ;
+	padding: 0px 10px 10px 0px;
+	border-bottom: 2px solid #cccccc;
+}
+h3{
+	text-align: left;
+	color: #cccccc;
+	font-size: 12px;
+	font-weight: none;
+	margin-left: 10px;
+	padding: 20px 0px 5px 0px;
+	
+}
+h4 {
+	margin: 10px 20px 10px 20px;
+	border-bottom: 2px solid #cccccc;
+	padding: 10px 0px 10px 0px;
+}
+input{
+	margin: 0px 0px 0px 10px;
+	padding: 5px 0px 0px 0px;
+	border: 1px solid #cccccc;
+
+}
+textarea{
+	margin: 0px 0px 0px 10px;
+	width: 420px;
+	height: 80px;
+	border: 1px solid #cccccc;
+}
+.buttom{
+	background:#4aaaa5;
+	width: 80px;
+	height: 30px;
+	text-align: center;
+	color: #ffffff;
+	margin: 10px 0px 0px 10px;
+	padding-bottom: 5px
+}
+.box-set {
+  background: #ffffff;
+  height: 305px;
+  width: 440px;
+  margin: 0;
+  position: relative;
+}
+.box {
+  background: #cccccc;
+  margin:0;
+  position: absolute; 
+}
+.box-1 {
+  background-image: url(../image/animals-q-c-182-134-2.jpg);
+  top: 20px;
+  left: 10px;
+  height: 85px;
+  width: 180px;
+}
+.box-2 {
+  background-image: url(../image/animals-q-c-182-134-3.jpg);
+  top: 20px;
+  right: 10px;
+  height: 85px;
+  width: 180px;  
+}
+.box-3 {
+  background-image: url(../image/animals-q-c-182-134-4.jpg);
+  top: 123px;
+  left: 10px;
+  height: 85px;
+  width: 180px;  
+}
+.box-4 {
+  background-image: url(../image/animals-q-c-182-134-5.jpg);	
+  top: 123px;
+  right: 10px; 
+  height: 85px;
+  width: 180px;
+
+}
+.box-5{
+  background-image: url(../image/animals-q-c-182-134-7.jpg);	
+  bottom: 0px;
+  left: 10px;
+  height: 85px;
+  width: 180px;  
+}
+.z{
+  height: 25px;
+  width: 180px;
+  z-index: 1;
+  bottom: 5px;
+  background: #4aaaa5;
+  text-align: center;
+  margin-top:50px; 
+  font-size: 16px;
+  padding-top:5px; 
+}
+
+#masthead {
+	background: #ffffff;
+}
+.container {
+	width: 100%;	
+	background-image: url(../image/cork-wallet.png);
+	
+}
+.main-section {
+	width: 960px;
+	background-image: url(../image/cork-wallet.png);
+}
+
+@media only screen and (max-width: 980px) {
+	.container{
+		padding: 0 20px;
+		max-width: 768px;
+	}
+	section .container {
+		padding-top: 130px;
+	}
+	.main-section {
+		max-width: 420px;
+	}
+	
+	
+}
+
+@media only screen and (max-width: 768px) {
+	.main-section,
+	.sidebar {
+		max-width: 100%;
+	}
+	section {
+		overflow: auto;
+	}
+	
+}
+
+@media only screen and (max-width: 640px) {
+	#masthead {
+		position: static;
+		margin-bottom: 20px;
+	}
+	header .container {
+		padding: 0;
+	}
+	section .container {
+		padding-top: 0;
+	}
+	
+	nav {
+		text-align: center;
+		width: 100%;
+		margin: 15px 0;
+	}
+	nav a {
+		width: 30%;
+		padding-left: 0;
+		margin-left: 0;
+	}
+}
+
