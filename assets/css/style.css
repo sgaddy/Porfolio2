@@ -253,8 +253,7 @@ textarea{
 @media only screen and (max-width: 768px) {
 	.main-section,
 	#sidebar {
-		max-width: 100%;
-		margin-left: 100px;
+		max-width: 100%;		
 	}
 	section {
 		overflow: auto;
@@ -273,6 +272,7 @@ textarea{
 	section .container {
 		padding-top: 0;
 		
+
 	}
 	
 	nav {
