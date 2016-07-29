@@ -86,12 +86,12 @@ aside {
 	
 	width: 290px;
 	height: 410px;
-	padding: 40px 20px 20px 0px;
+	padding: 30px 20px 20px 0px;
 	margin: 0px;
 	float: left;	
 	text-align: center;	
 }
-div{
+#sidebar{
 	background: #ffffff;
 	width: 150px;
 	height: 120px;
@@ -252,8 +252,9 @@ textarea{
 
 @media only screen and (max-width: 768px) {
 	.main-section,
-	.sidebar {
+	#sidebar {
 		max-width: 100%;
+		margin-left: 100px;
 	}
 	section {
 		overflow: auto;
@@ -271,6 +272,7 @@ textarea{
 	}
 	section .container {
 		padding-top: 0;
+		
 	}
 	
 	nav {
@@ -283,5 +285,5 @@ textarea{
 		padding-left: 0;
 		margin-left: 0;
 	}
-}
+} 
 
